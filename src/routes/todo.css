@@ -1,0 +1,50 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20em;
+    max-width: 15%;
+}
+.todo input{
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    height: 30px;
+    background-color: #3fb0ac;
+    padding-left: 1em;
+}
+input::placeholder{
+    color: black;
+    opacity: .7;
+}
+
+#add{
+    max-width: 20em;
+    width: 100%;
+    margin-bottom: 2em;
+    min-height: 4vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: brown;
+}
+
+.up button{
+    max-width: 5em;
+    width: 100%;
+    margin-bottom: 2em;
+    min-height: 4vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(165, 42, 144);
+
+}
+#del{
+    margin-right: 7em;
+}
+
+.up p{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(57, 117, 119);
+}

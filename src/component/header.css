@@ -1,0 +1,30 @@
+.head{
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-between;
+}
+
+.med{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.med svg{
+    margin-left: 1em;
+    width: 25px;
+    fill: rgb(10, 157, 24);
+}
+
+.med p{
+    color: rgb(10, 157, 24);
+}
+
+.icon{
+    margin-right: 3em;
+    width: 25px;
+    fill: rgb(242, 247, 243);
+    cursor: pointer;
+}
+
+

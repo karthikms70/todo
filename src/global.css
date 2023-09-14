@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+   
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(285deg, #3fb0ac 0%,#3fb0ac 60%, #f1f1ef 40%,#f1f1ef 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+ 
+}
+
+#root{
+    max-width: 100%;
+    width: 100%;
+}
+
